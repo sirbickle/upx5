@@ -26,7 +26,7 @@ const characters = [
     text: "Pneus e garrafas: atenção redobrada para evitar o mosquito da dengue. Muitas pessoas guardam pneus usados ou garrafas vazias em casa e acabam esquecendo de tomar alguns cuidados básicos. Se deixados expostos à chuva, podem acumular água, gerando criadouros do mosquito Aedes Aegypti.",
   },
   {
-    caracter: "Laje",
+    caracter: "calha",
     text: "Calhas, lajes e caixas d'água podem abrigar larvas do mosquito da Dengue. Negligenciar a limpeza destes locais aumenta as chances de proliferação do Aedes aegypti e os riscos contra a saúde humana.",
   },
 ];
