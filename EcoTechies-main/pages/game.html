@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/game.css">
+  <link rel="stylesheet" href="../css/modal.css">
+  <script defer src="../js/game.js"></script>
+
+  <title>Memory Game</title>
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <span class="player" onclick="finishedGame()"></span>
+    </header>
+
+    <div class="grid"></div>
+    <div  id="finished">
+      <p id="finished-text"></p>
+      <a href="../pages/finished.html"><button id="finished-button">Concluir</button></a>
+    </div>
+  </main>
+  <div class="modal-container" id="modal-container">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2>Parabéns! Você acertou!</h2>
+      </div>
+      <div class="modal-body">
+        <p id="modal-text">Você acertou a classe!</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
