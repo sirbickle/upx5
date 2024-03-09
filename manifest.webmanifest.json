@@ -1,0 +1,30 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Dengue Match",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "DengueM",
+  "start_url": "https://upx5-omega.vercel.app/index.html",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./images/capa_app.png",
+      "type": "image/x-icon",
+      "size": "512x512"
+    }
+  ],
+  "description": "APP da faculdade",
+  "categories": [
+    "education",
+    "games"
+  ],
+  "display_override": [
+    "standalone",
+    "browser",
+    "window-controls-overlay",
+    "minimal-ui",
+    "fullscreen"
+  ]
+}
