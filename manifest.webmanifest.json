@@ -10,7 +10,7 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "./images/android-launchericon-512-512.png",
+      "src": "./images/teste.jpg",
       "type": "image/x-icon",
       "size": "512x512"
     }
