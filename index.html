@@ -28,6 +28,11 @@
 
   </form>
     <script src="index.js"></script>
+    <script>
+      if (typeof navigator.serviceWoker !== 'underfind'){
+        navigator.serviceWorker.register('pwabuilder-sw.js')
+      }
+    </script>
 </body>
 
 </html>
