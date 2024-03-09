@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "dir": "ltr",
+  "dir": "auto",
   "display": "standalone",
   "name": "Dengue Match",
   "orientation": "any",
@@ -26,5 +26,6 @@
     "window-controls-overlay",
     "minimal-ui",
     "fullscreen"
-  ]
+  ],
+  "lang": "pt"
 }
