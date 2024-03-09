@@ -10,7 +10,7 @@
   "theme_color": "#c64242",
   "icons": [
     {
-      "src": "./images/capa_app.png",
+      "src": "./images/capa.png",
       "type": "image/x-icon",
       "size": "2500x2500"
     }
