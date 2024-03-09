@@ -10,9 +10,9 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "./images/capa_app.png",
+      "src": "./images/capa_pwa.png",
       "type": "image/x-icon",
-      "size": "512x512"
+      "size": "256x256"
     }
   ],
   "description": "APP da faculdade",
