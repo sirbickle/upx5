@@ -10,9 +10,9 @@
   "theme_color": "#c64242",
   "icons": [
     {
-      "src": "./images/capa.png",
+      "src": "./images/android-launchericon-512-512.png",
       "type": "image/x-icon",
-      "size": "1809x1024"
+      "size": "512x512"
     }
   ],
   "description": "APP da faculdade",
