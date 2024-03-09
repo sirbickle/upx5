@@ -1,13 +1,13 @@
 {
-  "background_color": "#ffffff",
+  "background_color": "#000000",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "Dengue Match",
-  "orientation": "any",
-  "scope": "/",
+  "orientation": "natural",
+  "scope": "https://upx5-omega.vercel.app/",
   "short_name": "DengueM",
   "start_url": "https://upx5-omega.vercel.app/index.html",
-  "theme_color": "#ffffff",
+  "theme_color": "#c64242",
   "icons": [
     {
       "src": "./images/capa_app.png",
@@ -26,5 +26,23 @@
     "window-controls-overlay",
     "minimal-ui",
     "fullscreen"
+  ],
+  "id": "denguematch",
+  "lang": "pt",
+  "iarc_rating_id": "15",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://upx5-omega.vercel.app/",
+      "id": "denguematch"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "denguematch",
+      "url": "https://upx5-omega.vercel.app/",
+      "description": "denguematch"
+    }
   ]
 }
