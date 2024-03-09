@@ -1,13 +1,13 @@
 {
-  "background_color": "#000000",
-  "dir": "ltr",
-  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "browser",
   "name": "Dengue Match",
-  "orientation": "natural",
+  "orientation": "any",
   "scope": "https://upx5-omega.vercel.app/",
   "short_name": "DengueM",
   "start_url": "https://upx5-omega.vercel.app/index.html",
-  "theme_color": "#c64242",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "./images/android-launchericon-512-512.png",
@@ -15,34 +15,20 @@
       "size": "512x512"
     }
   ],
-  "description": "APP da faculdade",
+  "description": "jogo para faculdade de encontrar as crtas",
   "categories": [
     "education",
     "games"
   ],
   "display_override": [
-    "standalone",
+    "fullscreen",
     "browser",
+    "standalone",
     "window-controls-overlay",
-    "minimal-ui",
-    "fullscreen"
+    "minimal-ui"
   ],
   "id": "denguematch",
   "lang": "pt",
-  "iarc_rating_id": "15",
-  "prefer_related_applications": false,
-  "related_applications": [
-    {
-      "platform": "play",
-      "url": "https://upx5-omega.vercel.app/",
-      "id": "denguematch"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "denguematch",
-      "url": "https://upx5-omega.vercel.app/",
-      "description": "denguematch"
-    }
-  ]
+  "iarc_rating_id": "1",
+  "prefer_related_applications": true
 }
