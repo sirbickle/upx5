@@ -9,12 +9,10 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-
-  
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px 50px;
+  padding: 20px;
 }
 
 header {
@@ -32,7 +30,7 @@ header {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Usando auto-fit para ajustar o número de colunas conforme o tamanho da tela */
   gap: 15px;
   width: 100%;
   max-width: 1200px;
@@ -41,7 +39,7 @@ header {
 
 .card {
   aspect-ratio: 3/4;
-  width: 150%;
+  width: 100%; /* Definindo largura de 100% para preencher a grade */
   border-radius: 5px;
   position: relative;
   transition: all 400ms ease;
@@ -78,9 +76,8 @@ header {
   opacity: 0.5;
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width: 920px) {
   .grid {
-    grid-template-columns: repeat(5, 1fr);
-
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Reduzindo o tamanho mínimo das colunas */
   }
 }
