@@ -34,21 +34,21 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .card {
   aspect-ratio: 3/4;
+  width: 90%;
   max-width: 250px;
-  margin-bottom: 20px;
-  width: 100%;
   border-radius: 15px;
   position: relative;
   transition: all 400ms ease;
   transform-style: preserve-3d;
   background-color: #ccc;
+  margin-bottom: 20px;
 }
 
 .face {
