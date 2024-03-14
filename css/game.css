@@ -39,7 +39,7 @@ header {
 
 .card {
   aspect-ratio: 3/4;
-  width: 100%; /* Definindo largura de 100% para preencher a grade */
+  width: 120%; /* Definindo largura de 100% para preencher a grade */
   border-radius: 5px;
   position: relative;
   transition: all 400ms ease;
