@@ -42,7 +42,7 @@ header {
 .card {
   aspect-ratio: 3/4;
   width: 150%;
-  max-width: 300px;
+  max-width: 350px;
   height: auto;
   border-radius: 15px;
   position: relative;
