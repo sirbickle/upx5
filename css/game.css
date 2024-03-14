@@ -33,7 +33,7 @@ header {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 150px;
+  gap: 20px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -41,7 +41,8 @@ header {
 
 .card {
   aspect-ratio: 3/4;
-  width: 150%;
+  width: 100%;
+  height: auto;
   border-radius: 15px;
   position: relative;
   transition: all 400ms ease;
