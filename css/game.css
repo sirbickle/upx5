@@ -41,8 +41,8 @@ header {
 
 .card {
   aspect-ratio: 3/4;
+  width: 90%;
   max-width: 300px;
-  width: 120%;
   height: auto;
   border-radius: 15px;
   position: relative;
